@@ -9,4 +9,5 @@ class ApplicationController < ActionController::Base
   
   def goodbye
     render :text 'goodbye, world'
+  end
 end
